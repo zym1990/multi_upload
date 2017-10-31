@@ -1,0 +1,33 @@
+{
+    "name": "xiaomi/multi_upload",
+    "description": "multi file upload",
+    "authors": [
+        {
+            "name": "xiaomi",
+            "email": "m13038531048@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "xiaomi\\multiUpload\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+            ],
+            "providers":[
+                "xiaomi\multiUpload\Providers\MultiUploadProvider"
+            ]
+        }
+    }
+}

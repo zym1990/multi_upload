@@ -167,6 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
+        xiaomi\multiUpload\Providers\MultiUploadProvider::class,
 
         /*
          * Application Service Providers...
