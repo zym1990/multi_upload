@@ -26,7 +26,7 @@
             "dont-discover": [
             ],
             "providers":[
-                "xiaomi\multiUpload\Providers\MultiUploadProvider"
+                "xiaomi\\multiUpload\\Providers\\MultiUploadProvider"
             ]
         }
     }
